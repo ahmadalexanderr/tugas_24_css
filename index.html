@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas CSS - Niomic</title>
+    <!-- Offline File -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <style>
+        .form-label{
+            font-weight: bold;
+        }
+    </style>
+</head>
+    <form action="">
+        <div class="form-group">
+            <label for="name" class="form-label">Nama Lengkap</label>
+            <input type="text" class="form-control" name="name">
+        </div>
+        <br/>
+        <div class="form-group">
+            <label for="address" class="form-label">Alamat Rumah</label>
+            <textarea name="address" id="address" cols="30" rows="10" class="form-control"></textarea>
+        </div>
+        <br/>
+        <div class="form-group">
+            <label for="picture" class="form-label">Foto Profil</label>
+            <br>
+            <input type="file" name="picture">
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="email" class="form-label">Alamat Email</label>
+            <input type="email" class="form-control" name="email">
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="password" class="form-label">Kata Sandi</label>
+            <input type="password" name="password" class="form-control">
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="vehicle" class="form-label">Jenis Kendaraan Anda: </label>
+            <input type="radio" name="vehicle" value="motor">
+            <label for="motor">Motor</label>
+            <input type="radio" name="vehicle" value="mobil"> 
+            <label for="mobil">Mobil</label>
+        </div>
+    </form>
+</body>
+</html>
